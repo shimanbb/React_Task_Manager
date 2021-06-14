@@ -3,6 +3,6 @@ import ReactDOM from 'react-dom';
 import './index.css';
 
 ReactDOM.render(
-  React.createElement("h1", {style: {color: "red"}}, "Home"),
+  <h1 style={{color: "blue"}}>Home</h1>,
   document.getElementById("root")
 );
